@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+weaviate-client = "*"
+openai = "*"
+markdown = "*"
+azure-identity = "*"
+tiktoken = "*"
+azure-search-documents = "*"
+azure-storage-blob = "*"
+langchain = "*"
+tqdm = "*"
+azure-ai-formrecognizer = "*"
+bs4 = "*"
+urllib3 = "*"
+requests = "*"
+pypdf = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

@@ -1,0 +1,1 @@
+az aks create --resource-group $resourcegroup --name $name --node-count 3 
